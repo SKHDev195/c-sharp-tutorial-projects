@@ -40,12 +40,12 @@ namespace Weather_Report_Limassol
             this.textReportDayOne.Text = $"Temperature: {dayOne.Temperature};\r\nMax Temperature: {dayOne.Temperature};\r\nHumidity: {dayOne.Humidity};\r\nConditions: {dayOne.Conditions}";
             this.textReportDayTwo.Text = $"Temperature: {dayTwo.Temperature};\r\nMax Temperature: {dayTwo.Temperature};\r\nHumidity: {dayTwo.Humidity};\r\nConditions: {dayTwo.Conditions}";
             this.textReportDayThree.Text = $"Temperature: {dayThree.Temperature};\r\nMax Temperature: {dayThree.Temperature};\r\nHumidity: {dayThree.Humidity};\r\nConditions: {dayThree.Conditions}";
-            this.textDateDayOne.Font = new Font(textReportDayOne.Font.FontFamily, 16);
             this.textDateDayTwo.Font = new Font(textReportDayOne.Font.FontFamily, 16);
+            this.textDateDayOne.Font = new Font(textReportDayOne.Font.FontFamily, 16);
             this.textDateDayThree.Font = new Font(textReportDayOne.Font.FontFamily, 16);
-            this.textDateDayOne.Text = dayOne.Date;
-            this.textDateDayTwo.Text = dayTwo.Date;
-            this.textDateDayThree.Text = dayThree.Date;
+            this.textDateDayTwo.Text = dayOne.Date.Substring(0,9);
+            this.textDateDayOne.Text = dayTwo.Date.Substring(0,9);
+            this.textDateDayThree.Text = dayThree.Date.Substring(0,9);
 
 
 

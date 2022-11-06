@@ -33,8 +33,8 @@
         private void InitializeComponent()
         {
             this.mainGrid = new System.Windows.Forms.TableLayoutPanel();
-            this.textDateDayOne = new System.Windows.Forms.TextBox();
             this.textDateDayTwo = new System.Windows.Forms.TextBox();
+            this.textDateDayOne = new System.Windows.Forms.TextBox();
             this.textReportDayThree = new System.Windows.Forms.TextBox();
             this.textReportDayTwo = new System.Windows.Forms.TextBox();
             this.weatherPicDayThree = new System.Windows.Forms.PictureBox();
@@ -54,8 +54,8 @@
             this.mainGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.mainGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.mainGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.mainGrid.Controls.Add(this.textDateDayOne, 0, 2);
             this.mainGrid.Controls.Add(this.textDateDayTwo, 0, 2);
+            this.mainGrid.Controls.Add(this.textDateDayOne, 0, 2);
             this.mainGrid.Controls.Add(this.textReportDayThree, 2, 1);
             this.mainGrid.Controls.Add(this.textReportDayTwo, 1, 1);
             this.mainGrid.Controls.Add(this.weatherPicDayThree, 2, 0);
@@ -73,33 +73,33 @@
             this.mainGrid.Size = new System.Drawing.Size(1024, 717);
             this.mainGrid.TabIndex = 0;
             // 
-            // textDateDayOne
-            // 
-            this.textDateDayOne.BackColor = System.Drawing.SystemColors.GrayText;
-            this.textDateDayOne.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textDateDayOne.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textDateDayOne.Location = new System.Drawing.Point(351, 582);
-            this.textDateDayOne.Margin = new System.Windows.Forms.Padding(10);
-            this.textDateDayOne.Multiline = true;
-            this.textDateDayOne.Name = "textDateDayOne";
-            this.textDateDayOne.ReadOnly = true;
-            this.textDateDayOne.Size = new System.Drawing.Size(321, 125);
-            this.textDateDayOne.TabIndex = 8;
-            this.textDateDayOne.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // textDateDayTwo
             // 
             this.textDateDayTwo.BackColor = System.Drawing.SystemColors.GrayText;
             this.textDateDayTwo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textDateDayTwo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textDateDayTwo.Location = new System.Drawing.Point(10, 582);
+            this.textDateDayTwo.Location = new System.Drawing.Point(351, 582);
             this.textDateDayTwo.Margin = new System.Windows.Forms.Padding(10);
             this.textDateDayTwo.Multiline = true;
             this.textDateDayTwo.Name = "textDateDayTwo";
             this.textDateDayTwo.ReadOnly = true;
             this.textDateDayTwo.Size = new System.Drawing.Size(321, 125);
-            this.textDateDayTwo.TabIndex = 7;
+            this.textDateDayTwo.TabIndex = 8;
             this.textDateDayTwo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textDateDayOne
+            // 
+            this.textDateDayOne.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textDateDayOne.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textDateDayOne.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textDateDayOne.Location = new System.Drawing.Point(10, 582);
+            this.textDateDayOne.Margin = new System.Windows.Forms.Padding(10);
+            this.textDateDayOne.Multiline = true;
+            this.textDateDayOne.Name = "textDateDayOne";
+            this.textDateDayOne.ReadOnly = true;
+            this.textDateDayOne.Size = new System.Drawing.Size(321, 125);
+            this.textDateDayOne.TabIndex = 7;
+            this.textDateDayOne.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textReportDayThree
             // 
@@ -219,8 +219,8 @@
         private System.Windows.Forms.PictureBox weatherPicDayTwo;
         private System.Windows.Forms.PictureBox weatherPicDayOne;
         private System.Windows.Forms.TextBox textReportDayOne;
-        private System.Windows.Forms.TextBox textDateDayOne;
         private System.Windows.Forms.TextBox textDateDayTwo;
+        private System.Windows.Forms.TextBox textDateDayOne;
         private System.Windows.Forms.TextBox textReportDayThree;
         private System.Windows.Forms.TextBox textReportDayTwo;
         private System.Windows.Forms.TextBox textDateDayThree;
