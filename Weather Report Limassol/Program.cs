@@ -16,7 +16,10 @@ namespace Weather_Report_Limassol
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Form1 goTest = new Form1(); 
+            Application.Run(goTest);
+
+
         }
     }
 }
