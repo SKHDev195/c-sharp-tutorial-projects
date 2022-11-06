@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RestSharp;
+
 
 namespace Weather_Report_Limassol
 {
@@ -14,6 +16,26 @@ namespace Weather_Report_Limassol
     {
         public Form1()
         {
+
+            RestClient weatherClient = new RestClient("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/weatherdata");
+
+            var args = new
+            {
+                forecast = "forecast",
+                locations = "limassol",
+                aggregateHours = "24",
+                forecastDays = "3",
+                unitGroup = "metric",
+                shortColumnNames = "false",
+                contentType = "json",
+                iconSet = "icons1",
+                key = "3KQTHQWBFGAD4PQY32S4592N3",
+            };
+
+            var weatherResponse = weatherClient.GetJsonAsync<RestResponse>("{forecast}", args);
+
+
+
             InitializeComponent();
 
             // StartPosition was set to FormStartPosition.Manual in the properties window.
@@ -22,11 +44,11 @@ namespace Weather_Report_Limassol
             int h = Height >= screen.Height ? screen.Height : (screen.Height + Height) / 2;
             this.Location = new Point((screen.Width - w) / 2, (screen.Height - h) / 2);
             this.Size = new Size(w, h);
+
+            textReportDayOne.Text = weatherResponse.ToString(); 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
-        }
+
     }
 }

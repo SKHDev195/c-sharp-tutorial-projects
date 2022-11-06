@@ -108,6 +108,7 @@
             // textReportDayOne
             // 
             this.textReportDayOne.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textReportDayOne.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textReportDayOne.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textReportDayOne.Location = new System.Drawing.Point(10, 296);
             this.textReportDayOne.Margin = new System.Windows.Forms.Padding(10);
@@ -116,11 +117,11 @@
             this.textReportDayOne.ReadOnly = true;
             this.textReportDayOne.Size = new System.Drawing.Size(321, 266);
             this.textReportDayOne.TabIndex = 4;
-            this.textReportDayOne.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textReportDayTwo
             // 
             this.textReportDayTwo.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textReportDayTwo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textReportDayTwo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textReportDayTwo.Location = new System.Drawing.Point(351, 296);
             this.textReportDayTwo.Margin = new System.Windows.Forms.Padding(10);
@@ -133,6 +134,7 @@
             // textReportDayThree
             // 
             this.textReportDayThree.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textReportDayThree.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textReportDayThree.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textReportDayThree.Location = new System.Drawing.Point(692, 296);
             this.textReportDayThree.Margin = new System.Windows.Forms.Padding(10);
@@ -145,6 +147,7 @@
             // textDateDayThree
             // 
             this.textDateDayThree.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textDateDayThree.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textDateDayThree.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textDateDayThree.Location = new System.Drawing.Point(692, 582);
             this.textDateDayThree.Margin = new System.Windows.Forms.Padding(10);
@@ -157,6 +160,7 @@
             // textDateDayOne
             // 
             this.textDateDayOne.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textDateDayOne.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textDateDayOne.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textDateDayOne.Location = new System.Drawing.Point(351, 582);
             this.textDateDayOne.Margin = new System.Windows.Forms.Padding(10);
@@ -169,6 +173,7 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Location = new System.Drawing.Point(10, 582);
             this.textBox1.Margin = new System.Windows.Forms.Padding(10);
