@@ -35,6 +35,7 @@ namespace Weather_Report_Limassol
         public string Conditions { get; private set; }
         public string Humidity { get; private set; }
         public string Date { get; private set; }
+        public string Icon { get; private set; }
 
         public WeatherInfo(int jsonIndex)
         {
@@ -43,9 +44,10 @@ namespace Weather_Report_Limassol
 
             this.Temperature = weatherData["locations"]["limassol"]["values"][jsonIndex]["temp"].ToString();
             this.MaxTemperature = weatherData["locations"]["limassol"]["values"][jsonIndex]["maxt"].ToString();
-            this.Conditions = weatherData["locations"]["limassol"]["values"][jsonIndex]["conditions"].ToString();
+            this.Conditions = weatherData["locations"]["limassol"]["values"][jsonIndex]["conditions"].ToString().ToLower();
             this.Humidity = weatherData["locations"]["limassol"]["values"][jsonIndex]["humidity"].ToString();
             this.Date = weatherData["locations"]["limassol"]["values"][jsonIndex]["datetimeStr"].ToString();
+            this.Icon = weatherData["locations"]["limassol"]["values"][jsonIndex]["icon"].ToString();
         }
 
     }

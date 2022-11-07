@@ -106,6 +106,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -117,9 +118,76 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\README" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear-day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear-night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partly-cloudy-day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partly-cloudy-night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain-snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain-snow-showers-day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain-snow-showers-night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showers-day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showers-night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sleet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow-showers-day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow-showers-night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder-rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder-showers-day.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder-showers-night.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
