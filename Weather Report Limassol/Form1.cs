@@ -43,8 +43,8 @@ namespace Weather_Report_Limassol
             this.textDateDayTwo.Font = new Font(textReportDayOne.Font.FontFamily, 16);
             this.textDateDayOne.Font = new Font(textReportDayOne.Font.FontFamily, 16);
             this.textDateDayThree.Font = new Font(textReportDayOne.Font.FontFamily, 16);
-            this.textDateDayTwo.Text = dayOne.Date.Substring(0,9);
-            this.textDateDayOne.Text = dayTwo.Date.Substring(0,9);
+            this.textDateDayOne.Text = dayOne.Date.Substring(0,9);
+            this.textDateDayTwo.Text = dayTwo.Date.Substring(0,9);
             this.textDateDayThree.Text = dayThree.Date.Substring(0,9);
 
 
