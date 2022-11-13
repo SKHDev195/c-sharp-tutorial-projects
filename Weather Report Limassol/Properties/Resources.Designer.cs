@@ -63,19 +63,29 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clear_day {
+        internal static System.Drawing.Bitmap clearday {
             get {
-                object obj = ResourceManager.GetObject("clear_day", resourceCulture);
+                object obj = ResourceManager.GetObject("clearday", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon clearday1 {
+            get {
+                object obj = ResourceManager.GetObject("clearday1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clear_night {
+        internal static System.Drawing.Bitmap clearnight {
             get {
-                object obj = ResourceManager.GetObject("clear_night", resourceCulture);
+                object obj = ResourceManager.GetObject("clearnight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +123,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap partly_cloudy_day {
+        internal static System.Drawing.Bitmap partlycloudyday {
             get {
-                object obj = ResourceManager.GetObject("partly_cloudy_day", resourceCulture);
+                object obj = ResourceManager.GetObject("partlycloudyday", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +133,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap partly_cloudy_night {
+        internal static System.Drawing.Bitmap partlycloudynight {
             get {
-                object obj = ResourceManager.GetObject("partly_cloudy_night", resourceCulture);
+                object obj = ResourceManager.GetObject("partlycloudynight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +153,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rain_snow {
+        internal static System.Drawing.Bitmap rainsnow {
             get {
-                object obj = ResourceManager.GetObject("rain_snow", resourceCulture);
+                object obj = ResourceManager.GetObject("rainsnow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +163,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rain_snow_showers_day {
+        internal static System.Drawing.Bitmap rainsnowshowersday {
             get {
-                object obj = ResourceManager.GetObject("rain_snow_showers_day", resourceCulture);
+                object obj = ResourceManager.GetObject("rainsnowshowersday", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +173,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rain_snow_showers_night {
+        internal static System.Drawing.Bitmap rainsnowshowersnight {
             get {
-                object obj = ResourceManager.GetObject("rain_snow_showers_night", resourceCulture);
+                object obj = ResourceManager.GetObject("rainsnowshowersnight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +193,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap showers_day {
+        internal static System.Drawing.Bitmap showersday {
             get {
-                object obj = ResourceManager.GetObject("showers_day", resourceCulture);
+                object obj = ResourceManager.GetObject("showersday", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +203,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap showers_night {
+        internal static System.Drawing.Bitmap showersnight {
             get {
-                object obj = ResourceManager.GetObject("showers_night", resourceCulture);
+                object obj = ResourceManager.GetObject("showersnight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +233,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap snow_showers_day {
+        internal static System.Drawing.Bitmap snowshowersday {
             get {
-                object obj = ResourceManager.GetObject("snow_showers_day", resourceCulture);
+                object obj = ResourceManager.GetObject("snowshowersday", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +243,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap snow_showers_night {
+        internal static System.Drawing.Bitmap snowshowersnight {
             get {
-                object obj = ResourceManager.GetObject("snow_showers_night", resourceCulture);
+                object obj = ResourceManager.GetObject("snowshowersnight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +263,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap thunder_rain {
+        internal static System.Drawing.Bitmap thunderrain {
             get {
-                object obj = ResourceManager.GetObject("thunder_rain", resourceCulture);
+                object obj = ResourceManager.GetObject("thunderrain", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +273,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap thunder_showers_day {
+        internal static System.Drawing.Bitmap thundershowersday {
             get {
-                object obj = ResourceManager.GetObject("thunder_showers_day", resourceCulture);
+                object obj = ResourceManager.GetObject("thundershowersday", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +283,9 @@ namespace Weather_Report_Limassol.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap thunder_showers_night {
+        internal static System.Drawing.Bitmap thundershowersnight {
             get {
-                object obj = ResourceManager.GetObject("thunder_showers_night", resourceCulture);
+                object obj = ResourceManager.GetObject("thundershowersnight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

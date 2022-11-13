@@ -231,6 +231,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_CD15815F05604F5298681EF15E717626"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_CDD932B1AAAB5A8000EBFB3FF79E0685"
         "OwnerKey" = "8:_1FB414D550E4411CB7671908A97C1E60"
         "MsmSig" = "8:_UNDEFINED"
@@ -370,19 +376,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4C61A8F812234AB82C0CA4BDAD8D9356"
+        "OwnerKey" = "8:_1FB414D550E4411CB7671908A97C1E60"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_36A2ED22CFCA4720A76C9B94DE7B9EA1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1FB414D550E4411CB7671908A97C1E60"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -481,6 +481,12 @@
         "OwnerKey" = "8:_EDF20538AB6403CF108E92F0321056C8"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4C61A8F812234AB82C0CA4BDAD8D9356"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -499,6 +505,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -515,6 +529,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -914,6 +936,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CD15815F05604F5298681EF15E717626"
+            {
+            "SourcePath" = "8:..\\..\\clearday.ico"
+            "TargetName" = "8:clearday.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_CF079FE4D4E14635B62FA007970E548C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CDD932B1AAAB5A8000EBFB3FF79E0685"
@@ -1324,20 +1366,6 @@
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4D7F41A30AB346FEBAB629758391D9A6"
-            {
-            "Name" = "8:Weather Report Limassol"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_1FB414D550E4411CB7671908A97C1E60"
-            "Folder" = "8:_9E7D122A2F03410C9FA7BD2BE615F643"
-            "WorkingFolder" = "8:_CF079FE4D4E14635B62FA007970E548C"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
         }
         "UserInterface"
         {
@@ -1739,7 +1767,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1FB414D550E4411CB7671908A97C1E60"
             {
-            "SourcePath" = "8:..\\Weather Report Limassol\\obj\\Release\\Weather Report Limassol.exe"
+            "SourcePath" = "8:..\\Weather Report Limassol\\obj\\Debug\\Weather Report Limassol.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CF079FE4D4E14635B62FA007970E548C"
@@ -1767,7 +1795,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_36A2ED22CFCA4720A76C9B94DE7B9EA1"
             {
-            "SourcePath" = "8:..\\Weather Report Limassol\\obj\\Release\\Weather Report Limassol.exe"
+            "SourcePath" = "8:..\\Weather Report Limassol\\obj\\Debug\\Weather Report Limassol.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_CF079FE4D4E14635B62FA007970E548C"
