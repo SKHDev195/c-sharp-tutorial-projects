@@ -28,7 +28,6 @@ C:\Dev\c-sharp\tutorialRepo\Weather Report Limassol\bin\Release\System.Text.Json
 C:\Dev\c-sharp\tutorialRepo\Weather Report Limassol\bin\Release\System.Threading.Tasks.Extensions.xml
 C:\Dev\c-sharp\tutorialRepo\Weather Report Limassol\bin\Release\System.ValueTuple.xml
 C:\Dev\c-sharp\tutorialRepo\Weather Report Limassol\obj\Release\Weather Report Limassol.csproj.AssemblyReference.cache
-C:\Dev\c-sharp\tutorialRepo\Weather Report Limassol\obj\Release\Weather Report Limassol.csproj.SuggestedBindingRedirects.cache
 C:\Dev\c-sharp\tutorialRepo\Weather Report Limassol\obj\Release\Weather_Report_Limassol.Form1.resources
 C:\Dev\c-sharp\tutorialRepo\Weather Report Limassol\obj\Release\Weather_Report_Limassol.Properties.Resources.resources
 C:\Dev\c-sharp\tutorialRepo\Weather Report Limassol\obj\Release\Weather Report Limassol.csproj.GenerateResource.cache

@@ -25,7 +25,6 @@ namespace Weather_Report_Limassol
         private WeatherInfo dayOne = new WeatherInfo(0);
         private WeatherInfo dayTwo = new WeatherInfo(1);
         private WeatherInfo dayThree = new WeatherInfo(2);
-        private Font generalFont = new Font(FontFamily.GenericSansSerif, 10, FontStyle.Bold);
 
 
         public Form1()
@@ -34,11 +33,14 @@ namespace Weather_Report_Limassol
             InitializeComponent();
 
 
+
             Rectangle screen = Screen.PrimaryScreen.WorkingArea;
             int w = Width >= screen.Width ? screen.Width : (screen.Width + Width) / 4;
             int h = Height >= screen.Height ? screen.Height : (screen.Height + Height) / 4;
             this.Location = new Point((screen.Width - w) / 4, (screen.Height - h) / 4);
             this.Size = new Size(w, h);
+
+            Font generalFont = new Font(FontFamily.GenericSansSerif, 10, FontStyle.Bold);
 
             Bitmap iconOne = (Bitmap)Properties.Resources.ResourceManager.GetObject($"{dayOne.Icon}");
             this.weatherPicDayOne.Image = iconOne;

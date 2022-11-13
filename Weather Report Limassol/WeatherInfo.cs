@@ -47,7 +47,7 @@ namespace Weather_Report_Limassol
             this.Conditions = weatherData["locations"]["limassol"]["values"][jsonIndex]["conditions"].ToString().ToLower();
             this.Humidity = weatherData["locations"]["limassol"]["values"][jsonIndex]["humidity"].ToString();
             this.Date = weatherData["locations"]["limassol"]["values"][jsonIndex]["datetimeStr"].ToString();
-            this.Icon = weatherData["locations"]["limassol"]["values"][jsonIndex]["icon"].ToString();
+            this.Icon = weatherData["locations"]["limassol"]["values"][jsonIndex]["icon"].ToString().Replace("-", "");
         }
 
     }
