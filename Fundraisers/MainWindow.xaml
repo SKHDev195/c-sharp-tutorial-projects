@@ -5,10 +5,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:Fundraisers"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="Fundraisers"
+    Title="Fundraisers for Ukraine"
     Width="800"
     Height="450"
     Background="{DynamicResource AppBackground}"
+    Icon="flag.ico"
     mc:Ignorable="d">
     <Grid Name="MainGrid" Margin="10">
         <Grid.RowDefinitions>
@@ -20,9 +21,10 @@
         <Grid
             Name="FundraiserOne"
             Grid.Row="0"
-            Margin="10"
+            Margin="5"
             Background="Azure">
             <Grid.RowDefinitions>
+                <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
@@ -31,7 +33,9 @@
             <TextBlock
                 Name="FOneTitle"
                 Grid.Row="0"
-                Margin="2"
+                Margin="5"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
                 TextTrimming="CharacterEllipsis"
                 TextWrapping="Wrap">
                 Fundraiser 1
@@ -39,7 +43,8 @@
             <TextBlock
                 Name="FOneDescription"
                 Grid.Row="1"
-                Margin="2"
+                Margin="5"
+                VerticalAlignment="Center"
                 TextTrimming="CharacterEllipsis"
                 TextWrapping="Wrap">
                 Fundraiser 1 description
@@ -47,7 +52,8 @@
             <TextBlock
                 Name="FOneFunds"
                 Grid.Row="2"
-                Margin="2"
+                Margin="5"
+                VerticalAlignment="Center"
                 TextTrimming="CharacterEllipsis"
                 TextWrapping="Wrap">
                 Fundraiser 1 funds
@@ -56,15 +62,24 @@
                 Name="ProgressFOne"
                 Grid.Row="3"
                 Margin="5"
-                Maximum="200"
+                Maximum="100"
                 Value="100" />
+            <Label
+                Name="HyperlinkOneLabel"
+                Grid.Row="4"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+                <Hyperlink Name="HyperlinkOne" NavigateUri="">Visit website</Hyperlink>
+            </Label>
         </Grid>
+
         <Grid
             Name="FundraiserTwo"
             Grid.Row="1"
-            Margin="10"
+            Margin="5"
             Background="Azure">
             <Grid.RowDefinitions>
+                <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
@@ -73,7 +88,9 @@
             <TextBlock
                 Name="FTwoTitle"
                 Grid.Row="0"
-                Margin="2"
+                Margin="5"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
                 TextTrimming="CharacterEllipsis"
                 TextWrapping="Wrap">
                 Fundraiser 2
@@ -81,7 +98,8 @@
             <TextBlock
                 Name="FTwoDescription"
                 Grid.Row="1"
-                Margin="2"
+                Margin="5"
+                VerticalAlignment="Center"
                 TextTrimming="CharacterEllipsis"
                 TextWrapping="Wrap">
                 Fundraiser 2 description
@@ -89,7 +107,8 @@
             <TextBlock
                 Name="FTwoFunds"
                 Grid.Row="2"
-                Margin="2"
+                Margin="5"
+                VerticalAlignment="Center"
                 TextTrimming="CharacterEllipsis"
                 TextWrapping="Wrap">
                 Fundraiser 2 funds
@@ -100,13 +119,23 @@
                 Margin="5"
                 Maximum="200"
                 Value="100" />
+            <Label
+                Name="HyperlinkTwoLabel"
+                Grid.Row="4"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+                <Hyperlink Name="HyperlinkTwo" NavigateUri="">
+                    Visit website
+                </Hyperlink>
+            </Label>
         </Grid>
         <Grid
             Name="FundraiserThree"
             Grid.Row="2"
-            Margin="10"
+            Margin="5"
             Background="Azure">
             <Grid.RowDefinitions>
+                <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
@@ -115,7 +144,9 @@
             <TextBlock
                 Name="FThreeTitle"
                 Grid.Row="0"
-                Margin="2"
+                Margin="5"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
                 TextTrimming="CharacterEllipsis"
                 TextWrapping="Wrap">
                 Fundraiser 3
@@ -123,7 +154,8 @@
             <TextBlock
                 Name="FThreeDescription"
                 Grid.Row="1"
-                Margin="2"
+                Margin="5"
+                VerticalAlignment="Center"
                 TextTrimming="CharacterEllipsis"
                 TextWrapping="Wrap">
                 Fundraiser 3 description
@@ -131,7 +163,8 @@
             <TextBlock
                 Name="FThreeFunds"
                 Grid.Row="2"
-                Margin="2"
+                Margin="5"
+                VerticalAlignment="Center"
                 TextTrimming="CharacterEllipsis"
                 TextWrapping="Wrap">
                 Fundraiser 3 funds
@@ -142,12 +175,22 @@
                 Margin="5"
                 Maximum="200"
                 Value="100" />
+            <Label
+                Name="HyperlinkThreeLabel"
+                Grid.Row="4"
+                VerticalAlignment="Center"
+                HorizontalContentAlignment="Center">
+                <Hyperlink Name="HyperlinkThree" NavigateUri="">Visit website</Hyperlink>
+            </Label>
         </Grid>
         <Button
             Name="RefreshButton"
             Grid.Row="3"
-            Margin="2">
-            <TextBlock TextTrimming="CharacterEllipsis">Refresh</TextBlock>
+            Margin="1"
+            VerticalAlignment="Center"
+            Click="RefreshButton_Click">
+            <TextBlock VerticalAlignment="Center" TextTrimming="CharacterEllipsis">Refresh (F5)</TextBlock>
         </Button>
+
     </Grid>
 </Window>

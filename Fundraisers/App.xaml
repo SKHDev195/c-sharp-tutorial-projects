@@ -9,5 +9,6 @@
             <GradientStop Offset="0" Color="#FF2E2E9A" />
             <GradientStop Offset="1" Color="#FFDCC23B" />
         </LinearGradientBrush>
+
     </Application.Resources>
 </Application>

@@ -1,0 +1,17 @@
+C:\Dev\c-sharp\tutorialRepo\TestApp\bin\Debug\net6.0\TestApp.exe
+C:\Dev\c-sharp\tutorialRepo\TestApp\bin\Debug\net6.0\TestApp.deps.json
+C:\Dev\c-sharp\tutorialRepo\TestApp\bin\Debug\net6.0\TestApp.runtimeconfig.json
+C:\Dev\c-sharp\tutorialRepo\TestApp\bin\Debug\net6.0\TestApp.dll
+C:\Dev\c-sharp\tutorialRepo\TestApp\bin\Debug\net6.0\TestApp.pdb
+C:\Dev\c-sharp\tutorialRepo\TestApp\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\TestApp.csproj.AssemblyReference.cache
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\TestApp.AssemblyInfoInputs.cache
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\TestApp.AssemblyInfo.cs
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\TestApp.csproj.CoreCompileInputs.cache
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\TestApp.csproj.CopyComplete
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\TestApp.dll
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\refint\TestApp.dll
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\TestApp.pdb
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\TestApp.genruntimeconfig.cache
+C:\Dev\c-sharp\tutorialRepo\TestApp\obj\Debug\net6.0\ref\TestApp.dll

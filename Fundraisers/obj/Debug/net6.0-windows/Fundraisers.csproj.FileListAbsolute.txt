@@ -22,3 +22,4 @@ C:\Dev\c-sharp\tutorialRepo\Fundraisers\obj\Debug\net6.0-windows\Fundraisers.gen
 C:\Dev\c-sharp\tutorialRepo\Fundraisers\obj\Debug\net6.0-windows\ref\Fundraisers.dll
 C:\Dev\c-sharp\tutorialRepo\Fundraisers\bin\Debug\net6.0-windows\HtmlAgilityPack.dll
 C:\Dev\c-sharp\tutorialRepo\Fundraisers\obj\Debug\net6.0-windows\Fundraisers.csproj.CopyComplete
+C:\Dev\c-sharp\tutorialRepo\Fundraisers\obj\Debug\net6.0-windows\Fundraisers_Content.g.cs
