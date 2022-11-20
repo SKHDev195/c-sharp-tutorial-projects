@@ -50,14 +50,6 @@ namespace Fundraisers
                 this.TotalFunds = Convert.ToDouble(0);
                 this.Website = new Uri("https://u24.gov.ua/");
             }
-            
-            //var fundraiserProperties = GetInformation(fundraiserID);
-            //this.Title = fundraiserProperties[0].ToString();
-            //this.Currency = fundraiserProperties[1].ToString();
-            //this.Description = fundraiserProperties[2].ToString();
-            //this.CurrentFunds = Convert.ToDouble(fundraiserProperties[3]);
-            //this.TotalFunds = Convert.ToDouble(fundraiserProperties[4]);
-            //this.Website = new Uri(fundraiserProperties[5].ToString());
 
         }
 
