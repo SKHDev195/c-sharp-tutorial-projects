@@ -1,0 +1,196 @@
+﻿<Window
+    x:Class="Fundraisers.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Fundraisers"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Fundraisers for Ukraine"
+    Width="800"
+    Height="450"
+    Background="{DynamicResource AppBackground}"
+    Icon="flag.ico"
+    mc:Ignorable="d">
+    <Grid Name="MainGrid" Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition MaxHeight="30" />
+        </Grid.RowDefinitions>
+        <Grid
+            Name="FundraiserOne"
+            Grid.Row="0"
+            Margin="5"
+            Background="Azure">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock
+                Name="FOneTitle"
+                Grid.Row="0"
+                Margin="5"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap">
+                Fundraiser 1
+            </TextBlock>
+            <TextBlock
+                Name="FOneDescription"
+                Grid.Row="1"
+                Margin="5"
+                VerticalAlignment="Center"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap">
+                Fundraiser 1 description
+            </TextBlock>
+            <TextBlock
+                Name="FOneFunds"
+                Grid.Row="2"
+                Margin="5"
+                VerticalAlignment="Center"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap">
+                Fundraiser 1 funds
+            </TextBlock>
+            <ProgressBar
+                Name="ProgressFOne"
+                Grid.Row="3"
+                Margin="5"
+                Maximum="100"
+                Value="100" />
+            <Label
+                Name="HyperlinkOneLabel"
+                Grid.Row="4"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+                <Hyperlink Name="HyperlinkOne" NavigateUri="">Visit website</Hyperlink>
+            </Label>
+        </Grid>
+
+        <Grid
+            Name="FundraiserTwo"
+            Grid.Row="1"
+            Margin="5"
+            Background="Azure">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock
+                Name="FTwoTitle"
+                Grid.Row="0"
+                Margin="5"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap">
+                Fundraiser 2
+            </TextBlock>
+            <TextBlock
+                Name="FTwoDescription"
+                Grid.Row="1"
+                Margin="5"
+                VerticalAlignment="Center"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap">
+                Fundraiser 2 description
+            </TextBlock>
+            <TextBlock
+                Name="FTwoFunds"
+                Grid.Row="2"
+                Margin="5"
+                VerticalAlignment="Center"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap">
+                Fundraiser 2 funds
+            </TextBlock>
+            <ProgressBar
+                Name="ProgressFTwo"
+                Grid.Row="3"
+                Margin="5"
+                Maximum="200"
+                Value="100" />
+            <Label
+                Name="HyperlinkTwoLabel"
+                Grid.Row="4"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+                <Hyperlink Name="HyperlinkTwo" NavigateUri="">
+                    Visit website
+                </Hyperlink>
+            </Label>
+        </Grid>
+        <Grid
+            Name="FundraiserThree"
+            Grid.Row="2"
+            Margin="5"
+            Background="Azure">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock
+                Name="FThreeTitle"
+                Grid.Row="0"
+                Margin="5"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap">
+                Fundraiser 3
+            </TextBlock>
+            <TextBlock
+                Name="FThreeDescription"
+                Grid.Row="1"
+                Margin="5"
+                VerticalAlignment="Center"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap">
+                Fundraiser 3 description
+            </TextBlock>
+            <TextBlock
+                Name="FThreeFunds"
+                Grid.Row="2"
+                Margin="5"
+                VerticalAlignment="Center"
+                TextTrimming="CharacterEllipsis"
+                TextWrapping="Wrap">
+                Fundraiser 3 funds
+            </TextBlock>
+            <ProgressBar
+                Name="ProgressFThree"
+                Grid.Row="3"
+                Margin="5"
+                Maximum="200"
+                Value="100" />
+            <Label
+                Name="HyperlinkThreeLabel"
+                Grid.Row="4"
+                VerticalAlignment="Center"
+                HorizontalContentAlignment="Center">
+                <Hyperlink Name="HyperlinkThree" NavigateUri="">Visit website</Hyperlink>
+            </Label>
+        </Grid>
+        <Button
+            Name="RefreshButton"
+            Grid.Row="3"
+            Margin="1"
+            VerticalAlignment="Center"
+            Click="RefreshButton_Click">
+            <TextBlock VerticalAlignment="Center" TextTrimming="CharacterEllipsis">Refresh (F5)</TextBlock>
+        </Button>
+
+    </Grid>
+</Window>

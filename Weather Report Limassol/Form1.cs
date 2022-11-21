@@ -26,13 +26,10 @@ namespace Weather_Report_Limassol
         private WeatherInfo dayTwo = new WeatherInfo(1);
         private WeatherInfo dayThree = new WeatherInfo(2);
 
-
         public Form1()
         {
 
             InitializeComponent();
-
-
 
             Rectangle screen = Screen.PrimaryScreen.WorkingArea;
             int w = Width >= screen.Width ? screen.Width : (screen.Width + Width) / 4;

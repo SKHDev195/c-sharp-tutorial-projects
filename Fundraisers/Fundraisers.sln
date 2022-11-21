@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundraisers", "Fundraisers.csproj", "{2E17A86C-7BD7-45D9-B418-D3B2DC3A61FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B1C4C24-7BA9-4C6C-AF02-C5561E3FB7FB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\flag.ico = ..\..\..\flag.ico
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Fundraisers for Ukraine", "..\Fundraisers for Ukraine\Fundraisers for Ukraine.vdproj", "{3200EB02-CF60-4A62-97A2-6F96644A17E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E17A86C-7BD7-45D9-B418-D3B2DC3A61FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E17A86C-7BD7-45D9-B418-D3B2DC3A61FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E17A86C-7BD7-45D9-B418-D3B2DC3A61FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E17A86C-7BD7-45D9-B418-D3B2DC3A61FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3200EB02-CF60-4A62-97A2-6F96644A17E5}.Debug|Any CPU.ActiveCfg = Debug
+		{3200EB02-CF60-4A62-97A2-6F96644A17E5}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8866522A-A49F-4CB1-A7AE-D37270CEF124}
+	EndGlobalSection
+EndGlobal
