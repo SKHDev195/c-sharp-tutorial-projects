@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Dev\c-sharp\tutorialRepo\TestWPFApp\App.xaml
-51490180769
+181354340576
 
-9-109654163
+221130886714
 194-2004305220
-MainWindow.xaml;NewResourcesExample.xaml;ResourcesExample.xaml;testBoxTest.xaml;Window1.xaml;
+ButtonTest.xaml;CheckBoxTest.xaml;CommandsSample.xaml;CommandsTest.xaml;DataBindingTest.xaml;MainWindow.xaml;MenuSample.xaml;NewResourcesExample.xaml;PanelsTest.xaml;PasswordBoxTest.xaml;RadioButtonTest.xaml;ResourcesExample.xaml;RichTextSample.xaml;StringFormatTest.xaml;testBoxTest.xaml;TextBoxTest.xaml;TextRenderingTest.xaml;Window1.xaml;
 
 True
 

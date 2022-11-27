@@ -35,8 +35,8 @@ namespace Fundraisers
 
             InitializeComponent();
 
-            this.Height = SystemParameters.PrimaryScreenHeight * 0.5;
-            this.Width = SystemParameters.PrimaryScreenWidth * 0.5;
+            this.Height = SystemParameters.PrimaryScreenHeight * 0.7;
+            this.Width = SystemParameters.PrimaryScreenWidth * 0.7;
 
             this.FOneTitle.Text = fundraiserOne.Title;
             this.FOneDescription.Text = fundraiserOne.Description;

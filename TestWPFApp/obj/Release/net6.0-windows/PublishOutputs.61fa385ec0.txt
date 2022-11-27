@@ -1,0 +1,5 @@
+C:\Dev\c-sharp\tutorialRepo\TestWPFApp\bin\Release\net6.0-windows\publish\TestWPFApp.exe
+C:\Dev\c-sharp\tutorialRepo\TestWPFApp\bin\Release\net6.0-windows\publish\TestWPFApp.dll
+C:\Dev\c-sharp\tutorialRepo\TestWPFApp\bin\Release\net6.0-windows\publish\TestWPFApp.deps.json
+C:\Dev\c-sharp\tutorialRepo\TestWPFApp\bin\Release\net6.0-windows\publish\TestWPFApp.runtimeconfig.json
+C:\Dev\c-sharp\tutorialRepo\TestWPFApp\bin\Release\net6.0-windows\publish\TestWPFApp.pdb

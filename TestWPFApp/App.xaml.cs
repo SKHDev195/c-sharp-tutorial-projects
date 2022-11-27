@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Threading;
+using TestWPFApp;
 
 namespace TestWPFApp
 {
@@ -17,8 +18,10 @@ namespace TestWPFApp
 
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            NewResourcesExample wnd = new NewResourcesExample();
+            var wnd = new RichTextSample();
+
             wnd.Title = "Test Title";
+
             wnd.Show();
         }
 

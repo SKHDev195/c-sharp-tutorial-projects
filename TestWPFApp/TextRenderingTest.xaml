@@ -1,0 +1,22 @@
+﻿<Window
+    x:Class="TestWPFApp.TextRenderingTest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:TestWPFApp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="TextRenderingTest"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <StackPanel Margin="10" TextOptions.TextFormattingMode="Display">
+        <Label FontSize="9" TextOptions.TextRenderingMode="Auto">TextRenderingMode.Auto, small text</Label>
+        <Label FontSize="9" TextOptions.TextRenderingMode="Aliased">TextRenderingMode.Aliased, small text</Label>
+        <Label FontSize="9" TextOptions.TextRenderingMode="ClearType">TextRenderingMode.ClearType, small text</Label>
+        <Label FontSize="9" TextOptions.TextRenderingMode="Grayscale">TextRenderingMode.Grayscale, small text</Label>
+        <Label FontSize="18" TextOptions.TextRenderingMode="Auto">TextRenderingMode.Auto, large text</Label>
+        <Label FontSize="18" TextOptions.TextRenderingMode="Aliased">TextRenderingMode.Aliased, large text</Label>
+        <Label FontSize="18" TextOptions.TextRenderingMode="ClearType">TextRenderingMode.ClearType, large text</Label>
+        <Label FontSize="18" TextOptions.TextRenderingMode="Grayscale">TextRenderingMode.Grayscale, large text</Label>
+    </StackPanel>
+</Window>
